@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #333333;
+  color: #222;
+}
+
+.container {
+  transform-origin: top left;
+  transition: all 0.5s linear;
+  background-color: grey;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  z-index: 100;
+  top: -90px;
+  left: -90px;
+}
+
+.circle {
+  background-color: #ff7979;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+nav {
+  position: fixed;
+  bottom: 10px;
+  left: 0px;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: white;
+  margin: 30px 0;
+
+  transition: all 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 14px;
+}
+nav span {
+  margin: 10px;
+}
+nav ul li:nth-child(1) {
+  transform: translateX(-100%);
+  margin-left: 10px;
+}
+nav ul li:nth-child(2) {
+  transform: translateX(-150%);
+  margin-left: 15px;
+}
+nav ul li:nth-child(3) {
+  transform: translateX(-200%);
+  margin-left: 20px;
+}
