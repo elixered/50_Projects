@@ -5,3 +5,4 @@ I am doing 50 mini front-end projects using HTML/CSS/JS in 20 days.
 3) Rotating Navbar: https://elixered.github.io/rotating-nav/
 4) Search Widget: https://elixered.github.io/search-widget/
 5) Blurry Loading: https://elixered.github.io/blurry-loading/
+6) Scroll Animation: https://elixered.github.io/scroll-animation/
