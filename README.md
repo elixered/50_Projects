@@ -6,3 +6,4 @@ I am doing 50 mini front-end projects using HTML/CSS/JS in 20 days.
 4) Search Widget: https://elixered.github.io/search-widget/
 5) Blurry Loading: https://elixered.github.io/blurry-loading/
 6) Scroll Animation: https://elixered.github.io/scroll-animation/
+7) Split Landing Page: https://elixered.github.io/split-landing-page/
