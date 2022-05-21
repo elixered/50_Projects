@@ -1,5 +1,4 @@
 # 50_Projects
-I am doing 50 mini front-end projects using HTML/CSS/JS.
 1) Expanding Cards: https://elixered.github.io/expanding-cards/
 2) Progress Steps: https://elixered.github.io/progress-steps/
 3) Rotating Navbar: https://elixered.github.io/rotating-nav/
